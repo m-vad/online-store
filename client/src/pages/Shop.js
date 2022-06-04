@@ -5,6 +5,7 @@ import Col from "react-bootstrap/Col";
 import {observer} from "mobx-react-lite";
 import TypeBar from "../component/TypeBar";
 import BrandBar from "../component/BrandBar";
+import DeviceList from "../component/DeviceList";
 
 const Shop = observer(() => {
     return (
@@ -15,6 +16,7 @@ const Shop = observer(() => {
                 </Col>
                 <Col md={9}>
                     <BrandBar/>
+                    <DeviceList/>
                 </Col>
             </Row>
         </Container>
